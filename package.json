@@ -1,0 +1,36 @@
+{
+  "name": "generator-bazel-fastify-route",
+  "version": "0.1.0",
+  "description": "Create a package containing a simple fastify route and a BUILD file",
+  "homepage": "github.com/alexeagle/generator-bazel-fastify-route",
+  "author": {
+    "name": "Alex Eagle",
+    "email": "alex@aspect.build"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/app/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.7.0",
+    "yeoman-assert": "^3.1.1",
+    "jest": "^26.1.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^3.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "alexeagle/generator-bazel-fastify-route",
+  "license": "Apache-2.0"
+}
